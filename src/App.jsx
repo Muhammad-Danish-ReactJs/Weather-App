@@ -1,8 +1,8 @@
 import "./styles/global.css";
-import Lottery from "./components/Lottery";
+import WeatherApp from "./components/WeatherApp";
 
 function App() {
-  return <Lottery n={3} winningSum={15} />;
+  return <WeatherApp />;
 }
 
 export default App;
