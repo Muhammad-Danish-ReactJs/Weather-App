@@ -1,14 +1,8 @@
-// import { useState } from 'react'
-// import './App.css'
+import "./styles/global.css";
+import Lottery from "./components/Lottery";
 
-import WeatherApp from "./WeatherApp";
 function App() {
-
-  return (
-    <>
-      <WeatherApp />
-    </>
-  );
+  return <Lottery n={3} winningSum={15} />;
 }
 
 export default App;

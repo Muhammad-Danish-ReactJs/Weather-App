@@ -1,0 +1,40 @@
+.ticket-num {
+  width: 70px;
+  height: 70px;
+  border-radius: 14px;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text);
+  transition: border-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.ticket-num.spinning {
+  color: var(--gold);
+  border-color: var(--gold);
+  animation: pulse 0.08s infinite;
+}
+
+.ticket-num.winning {
+  color: var(--gold);
+  border-color: var(--gold);
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.4);
+  animation: winPop 0.4s ease forwards;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@keyframes winPop {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.2); }
+  70% { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
