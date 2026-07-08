@@ -1,12 +1,86 @@
-# React + Vite
+# 🌤 Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time weather application built with **React.js** and the **OpenWeatherMap API**.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [weather-app-omega-lac-57.vercel.app](https://weather-app-omega-lac-57.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Search any city to get live weather data instantly.
+
+---
+
+## ✨ Features
+
+- 🔍 Real-time city search
+- 🌡️ Temperature, min/max, feels-like & humidity
+- 🌦️ Dynamic weather icons (sunny, rainy, cloudy, snow, thunderstorm)
+- ⏳ Loading spinner while fetching data
+- ⚠️ Error handling for invalid city names
+- 🕐 Recent searches as clickable chips
+- 📱 Fully responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+![React](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── components/
+│   ├── WeatherApp.jsx
+│   ├── SearchBox.jsx
+│   └── InfoBox.jsx
+├── styles/
+│   ├── global.css
+│   ├── SearchBox.css
+│   └── InfoBox.css
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## ⚙️ Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/Muhammad-Danish-ReactJs/Weather-App.git
+
+# Navigate to project
+cd Weather-App
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+```
+
+App runs on `http://localhost:3000`
+
+---
+
+## 🔑 API Used
+
+- [OpenWeatherMap API](https://openweathermap.org/api) — free weather data by city name
+
+---
+
+## 👨‍💻 Author
+
+**Muhammad Danish**
+
+- LinkedIn: [muhammad-danish-js](https://www.linkedin.com/in/muhammad-danish-js/)
+- GitHub: [Muhammad-Danish-ReactJs](https://github.com/Muhammad-Danish-ReactJs)
+- Email: muhammaddanish.reactjs@gmail.com
